@@ -1,0 +1,73 @@
+.bgimage {
+    background-image: url("../../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bglogo{
+    height: 550px;
+    width: 750px;
+  }
+
+  .lightbg{
+    background-image: url("../../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  /* Add the following styles to your CSS file or style tag */
+
+.icon-link {
+    transition: color 0.3s ease; /* Add transition effect to color property */
+  }
+  
+  .icon-link:hover {
+    color: #fda4af; /* Change the color when hovering */
+  }
+  /* Add the following styles to your CSS file or style tag */
+
+.icon-link,
+/* Add the following styles to your CSS file or style tag */
+
+.icon-link,
+.link {
+  transition: color 0.3s ease; /* Add transition effect to color property */
+}
+
+.icon-link:hover,
+.link:hover {
+  color: #fda4af; /* Change the color when hovering */
+}
+
+  
+ 
+.navbar {
+    height: 60px; /* Adjust the height value as per your preference */
+    /* background-color: #c8baba; */
+    /* background-image: url("../../assets/background.svg"); */
+     /* Set the background color of the navbar */
+    /* Add any other styles you want for the navbar */
+  }
+  
+  .navbar-logo { padding-left: 2%;
+    padding-top: 1%;
+    width: 275px; /* Adjust the width of the logo image */
+    height: 85px; /* Adjust the height of the logo image */
+    /* Add any other styles you want for the logo image */
+  }
+  .footerimg{
+    width:400px;
+   
+    
+  }
+
+ .footerbg{
+    
+    background-image: url("src/assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .display-flex > div {
+   
+   padding:90px;
+  }
+  

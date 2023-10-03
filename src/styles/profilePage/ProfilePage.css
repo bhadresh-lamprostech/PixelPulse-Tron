@@ -1,0 +1,154 @@
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #cfd770; /* Light grey */
+  border-top: 10px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
+.spinner-container {
+  display: flex;
+  top: 0%;
+  bottom: 50;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------------- */
+
+.ProfilePageMainClass {
+  /* height: 27.5vh; */
+
+  padding: 1.5%;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 3%;
+
+  -webkit-box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+  -moz-box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+  box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+
+  background: #1e0b1360;
+  /* box-shadow: 0 8px 20px 0 #d61e5e; */
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 3.5rem 3.5rem 3.5rem 3.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.profile-photo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  /* margin-bottom: 3%; */
+}
+
+@media (max-width: 768px) {
+  .profile-photo {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .profile-photo {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-photo {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+.ProfileHead {
+  color: #ff83a5;
+  text-align: center;
+  padding: 2%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* .createWorkspaceBtn {
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: #fdff8b;
+  color: rgb(0, 0, 0);
+} */
+
+/* .createWorkspaceBtn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+} */
+
+.createWorkspaceBtn {
+  width: fit-content;
+  background-color: #f7b723 !important;
+  box-shadow: 0 0 10px 2px #f7b723a9;
+  color: #000000 !important;
+  padding: 10px 35px !important;
+  border: none !important;
+  border-radius: 2rem 2rem 0 2rem !important;
+  cursor: pointer !important;
+}
+
+.UserProfileDetails > * {
+  margin-bottom: 1rem;
+}
+
+/*  */
+
+.ProfileContent {
+  display: flex;
+}
+
+.ProfilePhotoClass {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-align: left;
+  padding-left: 2%;
+  /* flex: 1; */
+}
+
+.UserProfileDetails {
+  margin-bottom: 1%;
+  margin-left: 1%;
+  padding: 1rem;
+  color: #000000;
+  flex: 1;
+}
+
+.createWSClass {
+  margin: 2.5%;
+  text-align: right;
+  flex: 1;
+}
+
+.UserProfileDetails-Name {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ff206e;
+  font-size: x-large;
+}
+
+.UserProfileDetails-email,
+.UserProfileDetails-address {
+  color: #ffffff !important;
+}

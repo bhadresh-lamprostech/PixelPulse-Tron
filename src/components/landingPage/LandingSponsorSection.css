@@ -1,0 +1,72 @@
+.sponsor-section {
+    /* background-color: #ffffff; */
+    /* background-image: url('src/assets/background.png'); */
+    
+    color: #ebabab;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .sponsor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  
+  .poweredbyHeading {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .sponsorname {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .LandingSponsorDesc {
+    font-size: 1rem;
+  }
+  
+  .sponsor-card {
+    background-color: #fda4af;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 250px;
+    text-overflow: ellipsis;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add box-shadow for the sponsor cards */
+  }
+  
+  @media (max-width: 768px) {
+    .sponsor-card {
+      width: calc(50% - 20px);
+    }
+  
+    .sponsorname {
+      font-size: 1rem !important;
+    }
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  
+  .sponsor-card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .sponsor-section {
+    text-align: center;
+    font-size: 100%;
+  }
+  
+  .sponsor-section h1 {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,190 @@
+.WorkspacePageMainClass {
+  height: 80vh;
+  padding: 3%;
+  border-radius: 2rem;
+  /* margin-right: 1.8rem; */
+  overflow: hidden;
+  /* margin-left: 2%; */
+  max-height: 80vh;
+  /* margin-top: 2%; */
+  margin: 3%;
+
+  -webkit-box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+  -moz-box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+  box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+
+  background: #1e0b1360;
+  /* box-shadow: 0 8px 20px 0 #d61e5e; */
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 3.5rem 3.5rem 0 3.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* .WorkspacePageMainClass {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+} */
+
+.WorkspacePageMainClass::-webkit-scrollbar {
+  width: 6px;
+}
+
+.WorkspacePageMainClass::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.WorkspacePageMainClass::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.WorkspaceLogoDetailsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.WorkspaceLogo {
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.CopyButton {
+  background-color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.Icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+.UserTable {
+  margin-bottom: 20px;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.userProfileLogoMain {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.UsersNameAndLogo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly !important;
+}
+
+.TableHeader {
+  display: flex;
+  background-color: #2e121b;
+  /* color: #ff206e67; */
+  color: #ff83a5;
+  padding: 10px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.TableHeaderCell {
+  flex: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.TableCell {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.WorkspaceHead {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.WorkspacePhotoClass {
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.UserDetailRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.UserDetailLabel {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.TableRow {
+  display: flex;
+  /* background-color: #0000002c; */
+  /* background-color: #ff83a4b6; */
+  background-color: #693c4b;
+  color: #fff;
+  /* background-color: #ffbc42b6; */
+  padding: 10px;
+}
+
+.CopyIcon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.CopyIcon2 {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.Copied {
+  color: #4caf50;
+  /* background-color: #4caf50; */
+}
+.Copied2 {
+  color: #4caf50;
+  /* background-color: #4caf50; */
+}
+
+/* .UserDetailsMainClassDiv {
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.UserDetailsMainClassDiv::-webkit-scrollbar {
+  width: 6px;
+}
+
+.UserDetailsMainClassDiv::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.UserDetailsMainClassDiv::-webkit-scrollbar-thumb {
+  background-color: transparent;
+} */
+.UserDetailValue-wsName {
+  color: #ff206ed1;
+  font-size: larger;
+  font-weight: bold;
+  text-transform: uppercase;
+}

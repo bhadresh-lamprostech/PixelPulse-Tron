@@ -1,0 +1,48 @@
+.createWorkspaceMainDivClass {
+  height: 80vh;
+  padding: 3%;
+  border-radius: 2rem;
+  overflow: scroll;
+  max-height: 80vh;
+  margin: 3%;
+  /* scrollbar-width: thin;
+  scrollbar-color: transparent transparent; */
+  -webkit-box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+  -moz-box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+  box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+
+  background: #1e0b1360;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 3.5rem 3.5rem 0 3.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.createWorkspaceMainDivClass::-webkit-scrollbar {
+  width: 0px;
+}
+
+.createWorkspaceMainDivClass::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.createWorkspaceMainDivClass::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.createWorkspaceBtnClass {
+  margin-top: 1rem !important;
+  margin: auto;
+  width: fit-content;
+  background-color: #f7b723 !important;
+  box-shadow: 0 0 10px 2px #f7b723a9;
+  color: #000000 !important;
+  padding: 10px 35px !important;
+  border: none !important;
+  border-radius: 2rem 2rem 0 2rem !important;
+  cursor: pointer !important;
+}
+
+.createWorkspaceFormMainClass {
+  min-height: max-content;
+}

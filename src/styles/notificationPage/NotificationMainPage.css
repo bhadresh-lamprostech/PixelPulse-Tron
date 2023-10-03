@@ -1,0 +1,70 @@
+.NotificationPageMainClass {
+  height: 80vh;
+  padding: 3%;
+  border-radius: 2rem;
+  max-height: 80vh;
+  margin: 3%;
+
+  -webkit-box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+  -moz-box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+  box-shadow: 0px 0px 32px 1px rgba(214, 30, 94, 0.64);
+
+  background: #4b233460;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 3.5rem 3.5rem 0 3.5rem;
+}
+
+.NotificationPageMainTitle {
+  font-size: 2rem;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+}
+
+.NotificationsList_main {
+  overflow: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  height: 65vh;
+}
+
+.NotificationsList_main::-webkit-scrollbar {
+  width: 0px;
+}
+
+.NotificationsList_main::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.NotificationsList_main::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.NotificationsList {
+  padding: 1% 3% 1% 3%;
+  border-radius: 2rem;
+  width: fit-content;
+  margin: 3%;
+
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(214, 30, 94, 0.64);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(214, 30, 94, 0.64);
+  box-shadow: 0px 0px 15px 0px rgba(214, 30, 94, 0.64);
+
+  box-shadow: 0px 0px 5px 2px rgb(223 104 145 / 64%);
+
+  background: #a9999f4d;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 3.5rem 3.5rem 0rem 3.5rem;
+}
+
+.Notification_title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d62361;
+  font-size: 1.5rem;
+}
+
+.Notification_description {
+  color: #ffffff;
+}
